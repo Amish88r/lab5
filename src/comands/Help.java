@@ -1,3 +1,6 @@
+package comands;
+package Some_Stuff;
+
 public class Help implements Command {
 
     private Receiver receiver;

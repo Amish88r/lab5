@@ -1,3 +1,5 @@
+package someStuff;
+
 import java.util.ArrayList;
 
 public class Receiver {

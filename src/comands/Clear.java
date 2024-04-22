@@ -1,3 +1,5 @@
+package comands;
+
 public class Clear implements Command {
 
     private Receiver receiver;

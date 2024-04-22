@@ -1,3 +1,6 @@
+import comands.*;
+import someStuff.*;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -27,7 +30,7 @@ public class Invoker {
     }
 
     public String executeCommand(String commandName) {
-        commandName = commandName.trim();
+        commandName = commandName.trim(); // trim уберает пробелы
         Command command = commandMap.get(commandName);
         if (command == null) {
             return "Такой команды нет!";

@@ -1,3 +1,5 @@
+package comands;
+
 public class Show implements Command {
 
     private Receiver receiver;
@@ -13,6 +15,6 @@ public class Show implements Command {
 
     @Override
     public String getHelp() {
-        return "Show: вывести в стандартный поток вывода все элементы коллекции в строковом представлении";
+        return "Commands.Show: вывести в стандартный поток вывода все элементы коллекции в строковом представлении";
     }
 }

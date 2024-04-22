@@ -1,3 +1,5 @@
+package comands;
+
 public class Size implements Command {
 
     private Receiver receiver;
@@ -13,6 +15,6 @@ public class Size implements Command {
 
     @Override
     public String getHelp() {
-        return "Size: показать размер коллекции";
+        return "Commands.Size: показать размер коллекции";
     }
 }
